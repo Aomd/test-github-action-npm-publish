@@ -30,6 +30,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm install
       - run: npm install -g @jsdevtools/npm-publish
-      - run: npm-publish --token=${{secrets.npm_token}} package.json
+      - run: npm-publish --token="$NODE_AUTH_TOKEN" package.json
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
