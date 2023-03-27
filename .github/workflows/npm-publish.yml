@@ -6,6 +6,10 @@ name: Node.js Package
 on:
   release:
     types: [created]
+    
+on:
+  watch:
+    types: [started]
 
 jobs:
   build:
