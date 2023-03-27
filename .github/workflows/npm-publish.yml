@@ -17,6 +17,8 @@ jobs:
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
+    environment: 
+      name: prodaction
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
