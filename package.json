@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aomd-ua": "0.0.1",
-    "aomd-utils": "0.0.16"
+    "aomd-ua": "0.0.2",
+    "aomd-utils": "0.0.20"
   }
 }
